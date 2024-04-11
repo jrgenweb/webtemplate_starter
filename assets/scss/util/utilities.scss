@@ -1,12 +1,9 @@
-.flex-column {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.flex-between {
-    justify-content: space-between;
-}
-.p-2 {
-    padding: 2rem;
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
